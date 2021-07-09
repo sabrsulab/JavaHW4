@@ -1,0 +1,28 @@
+// PowerCalc.java
+// demonstrates Power by recursion
+// to run this program: C>java PowerCalc
+//--------------------------------------------------------------
+class PowerCalc
+{
+  public static long(long base, long pow)
+  {
+    if(pow == 2)
+    {
+    return base*base;
+    }//end if
+    else if(pow%2 != 0)
+    {
+    return base*power(base*base, pow/2);
+    }//end else if
+    else
+    {
+    return power(base*base, pow/2);
+    }//end else
+  }//end long() function
+  public static void main(Str[] args)
+  {
+    calc = new PowerCalc();
+    long base = (int)(java.lang.Math.random()*99);
+    System.out.print(base);
+  }//end main() function
+}//end PowerCalc class

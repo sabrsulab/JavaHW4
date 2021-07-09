@@ -1,0 +1,4 @@
+The shell sort appears to be operating as intended. It breaks down the array into smaller sub-arrays (each sub-array is
+sorted by every 3rd item in the whole array; array[0], array[3], array[6], array[9] would be in one of the sub-arrays sorted
+next to each other in the first intermediate step, for example). Then, by the conclusione of the second, complete pass of 
+the shell sort, the whole array would be sorted.
